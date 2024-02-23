@@ -3,4 +3,4 @@ whatsapp_token = 'EAAFjVG4tWj8BO7MNZBFrpfq9RP9ajqJ8UK7n5kZChGNjTbk0MMIkwRHZB0mxj
 
 whatsapp_url = 'https://graph.facebook.com/v18.0/114826761609462/messages'
 
-document_pdf = 'docs/calificacionesFEBRERO.pdf'
+document_pdf = 'docs/RecetarioMisGalletas.pdf'
