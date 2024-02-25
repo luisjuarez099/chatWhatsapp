@@ -1,7 +1,11 @@
 from flask import Flask, request 
 import sett
 import services
+
+
 app  =  Flask(__name__)
+
+
 @app.route('/bienvenido', methods=['GET'])
 def bienvenido():
     return 'Bienvenido a la API de Python :)'
@@ -31,7 +35,7 @@ def recibir_mensajes():
         messageId = message['id']
         contacts = value['contacts'][0]
         name = contacts['profile']['name']
-        text = services.obtener_Mensaje_whatsapp(message)
+        text = services.obtener_mensaje_whatsapp(message)
 
         services.admin_chatbot(text, number,messageId,name)
         return 'enviado :) '
