@@ -1,6 +1,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/venv,python,flask,git
 # Edit at https://www.toptal.com/developers/gitignore?templates=venv,python,flask,git
 
+
+#Archivos Multimedia#
+docs/
+*.pdf
+*.png
 ### Flask ###
 instance/*
 !instance/.gitignore
